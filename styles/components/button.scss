@@ -1,0 +1,26 @@
+@import '../generic/reset';
+
+.button {
+  --color-icons: rgba(var(--button-color), var(--button-color-opacity, 1));
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-button);
+  color: var(--color-white);
+  background: var(--color-background-button);
+  border-radius: var(--border-radius--large);
+  cursor: pointer;
+
+  &:not(:disabled):active,
+  &:not(:disabled):hover {
+    --button-opacity: 1;
+    border: 1px solid var(--color-green);
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  &:not(:disabled).focus-visible {
+    --button-border-color: var(--color-blue);
+    --button-border-opacity: 1;
+  }
+}

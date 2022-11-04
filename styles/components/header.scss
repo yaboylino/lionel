@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: var(--color-background-header);
+
+  &__links {
+    color: var(--color-white);
+
+    &__item {
+      margin-right: 30px;
+      text-transform: uppercase;
+    }
+
+    &__item:hover,
+    &__item:focus-visible {
+      color: var(--text-button--hover);
+    }
+  }
+}
+
+
+
+.logo-point {
+  animation: point 2s infinite;
+}
+
+@keyframes point {
+  0%   {fill: var(--color-red);}
+  50%  {fill: #FFFFFF}
+  100%  {fill: var(--color-red);}
+  50%  {fill: #FFFFFF}
+  0%   {fill: var(--color-red);}
+}

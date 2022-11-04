@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@100;300;400&display=swap');
+
+/*
+ * ===== Theme typography =====
+ */
+
+body {
+    line-height: var(--line-height);
+    color: var(--color-text);
+}
+
+body,
+input,
+select,
+option,
+textarea {
+    font-family: var(--font-family--primary);
+}
+
+/* Headings */
+h1 {
+    margin: 0 0 var(--spacing);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: var(--font-family--secondary);
+}
+
+/* Text */
+p {
+    margin: 0 0 var(--spacing);
+    white-space: pre-line;
+}
+
+/* Links */
+:any-link,
+a {
+    color: var(--color-brand);
+    text-decoration: none;
+}
+
+/* Lists */
+ul,
+ol {
+}

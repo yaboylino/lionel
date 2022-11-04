@@ -1,0 +1,117 @@
+:root {
+
+/*
+* ===== Theme colors =====
+*/
+
+  // Brand colors
+  --color-red: #EB0046;
+
+  // Additional colors
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  // Functional colors
+  --color-dark: #1D1D1D;
+
+  // Light Theme Colors
+
+  --color-text: var(--color-dark);
+  --color-text-header: var(--color-white);
+  --color-headings: var(--color-grey-50);
+  --color-background: var(--color-white);
+  --color-background-header: var(--color-dark);
+  --color-background-button: var(--color-red);
+  --text-button--hover: var(--color-red);
+  --color-btn-background: var(--color-yellow);
+  --color-area-list-item-name: var(--color-blue--medium);
+  --color-area-list-item-category: var(--color-grey-50);
+  --color-area-list-item-border: var(--color-grey-25);
+  --color-metric-list-item-name: var(--color-grey-50);
+  --color-metric-list-item-unit: var(--color-grey-50);
+  --color-metric-list-item-border: var(--color-grey-25);
+  --color-tabbar-text: var(--color-grey-35);
+  --color-tabbar-text--active: var(--color-black);
+  --color-tabbar-background: var(--color-yellow);
+  --color-tabbar-border: var(--color-yellow);
+  --color-tabbar-border--active: var(--color-skyblue);
+  --color-tabbar-icon: var(--color-grey-35);
+  --color-tabbar-icon--active: var(--color-grey-50);
+  --color-last-updated-time-text: var(--color-grey-30);
+  --color-input-field: var(--color-grey-25);
+  --color-input-field-placeholder: var(--color-grey-50);
+  --color-info-bar-background: var(--color-yellow);
+  --color-info-bar-text: var(--color-yellow);
+  --color-header-background: var(--color-yellow);
+  --color-footer-detail-page-background: var(--color-yellow);
+  --color-footer-detail-page-text: var(--color-grey-35);
+  --color-footer-detail-page-text--active: var(--color-grey-50);
+  --color-object-info-title: var(--color-blue--medium);
+  --color-object-info-subtitle: var(--color-skyblue);
+  --color-chart-unit-text: var(--color-grey-35);
+  --color-chart-selected-time-text: var(--color-red);
+  --color-chart-selected-value-text: var(--color-red);
+  --color-chart-selected-date-text: var(--color-grey-35);
+
+  // Typography
+  --font-family--primary: 'Roboto', sans-serif;
+  --font-family--secondary: 'Montserrat', sans-serif;
+
+  --font-size--massive: 42px;
+  --font-size--huge: 30px;
+  --font-size--xxxlarge: 23px;
+  --font-size--xxlarge: 20px;
+  --font-size--xlarge: 18px;
+  --font-size--large: 17px;
+  --font-size: 16px;
+  --font-size--small: 15px;
+  --font-size--xsmall: 13px;
+
+  --font-weight--regular: 400;
+  --font-weight--bold: 700;
+
+  --line-height: 1.2;
+  --line-height--large: 1.5;
+  --line-height--xlarge: 1.9;
+
+  --letter-spacing: .5px;
+
+  // Icons
+  --icon-font-size: 24px;
+
+  // Spacings
+  --spacing: 16px;
+  --spacing--25: 4px;
+  --spacing--50: 8px;
+  --spacing--75: 12px;
+  --spacing--100: var(--spacing);
+  --spacing--125: 20px;
+  --spacing--150: 24px;
+  --spacing--175: 28px;
+  --spacing--200: 32px;
+  --spacing--225: 36px;
+  --spacing--250: 40px;
+  --spacing--275: 44px;
+  --spacing--300: 48px;
+  --spacing--325: 52px;
+  --spacing--350: 56px;
+  --spacing--375: 60px;
+  --spacing--450: 72px;
+  --spacing--500: 80px;
+
+  // Z-Index
+  --z-index--layout: 1;
+  --z-index--header: 2;
+  --z-index--dropdown: 3;
+  --z-index--disclaimer: 4;
+  --z-index--tooltips: 10;
+  --z-index--loading-screen: 15;
+
+  // Misc
+  --border-radius: 3px;
+  --border-radius--large: 4px;
+  --border-radius--xlarge: 6px;
+  --border-radius--xxlarge: 10px;
+
+  --padding-button: 10px 40px;
+}

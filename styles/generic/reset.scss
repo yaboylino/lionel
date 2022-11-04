@@ -1,0 +1,34 @@
+@import '../settings/variables';
+
+/*
+ * ===== Theme reset =====
+ */
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// Button reset
+%button-reset {
+  width: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: inherit;
+  color: inherit;
+  cursor: pointer;
+}
